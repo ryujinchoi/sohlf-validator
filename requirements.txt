@@ -1,3 +1,2 @@
-torch==2.5.1 --find-links https://pytorch.org
 flask==3.0.3
 gunicorn==23.0.0
