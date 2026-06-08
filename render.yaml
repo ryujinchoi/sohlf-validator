@@ -1,0 +1,6 @@
+services:
+  - tzpe: web
+    name: sohlf-validator
+    env: pzthon
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
